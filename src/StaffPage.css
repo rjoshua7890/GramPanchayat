@@ -1,0 +1,96 @@
+.staff-popup{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #00000090;
+  display: grid;
+}
+.staff-popup-container{
+  place-self: center;
+  width: max(23vw,330px);
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+}
+.staff-popup-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.staff-popup-title img{
+  width: auto;
+  cursor: pointer;
+}
+.staff-popup-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.staff-popup-inputs input{
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+.staff-popup-container button{
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: #0a41c4;
+  font-size: 15px;
+  cursor: pointer;
+}
+.staff-popup-condition{
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin-top: -15px;
+}
+.staff-popup-condition input{
+  margin-top: 5px;
+}
+.staff-popup-inputs input:focus{
+  border-color: #0a41c4;
+  outline: none;
+  box-shadow: 0 0 5px #0a41c4;
+}
+.staff-popup p span{
+  color: #0a41c4;
+  font-size: 500;
+  cursor: pointer;
+
+}
+.staff {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  padding: 20px; /* Padding around the container */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.staff button {
+  padding: 10px 20px; /* Padding for the buttons */
+  font-size: 16px; /* Button font size */
+  color: white; /* Text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.staff button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}

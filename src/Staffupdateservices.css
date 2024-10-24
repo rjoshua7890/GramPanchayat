@@ -1,0 +1,69 @@
+.staff {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.staff h1 {
+    text-align: center;
+    color: #333;
+}
+
+.staff p {
+    font-size: 14px;
+    color: #555;
+}
+
+.staff ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.staff li {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.staff li:hover {
+    background-color: #f1f1f1;
+}
+
+.staff h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.staff button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.staff button:first-of-type {
+    background-color: #4CAF50; /* Green */
+}
+
+.staff button:last-of-type {
+    background-color: #f44336; /* Red */
+}
+
+.staff button:hover:first-of-type {
+    background-color: #45a049; /* Darker Green */
+}
+
+.staff button:hover:last-of-type {
+    background-color: #e53935; /* Darker Red */
+}

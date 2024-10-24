@@ -1,0 +1,112 @@
+.admin-popup{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: #00000090;
+  display: grid;
+}
+.admin-popup-container{
+  place-self: center;
+  width: max(23vw,330px);
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+}
+.admin-popup-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.admin-popup-title img{
+  width: auto;
+  cursor: pointer;
+}
+.admin-popup-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.admin-popup-inputs input{
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+.admin-popup-inputs input:focus{
+  border-color: orangered;
+  outline: none;
+  box-shadow: 0 0 5px orangered;
+}
+.admin-popup-container button{
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: orangered;
+  font-size: 15px;
+  cursor: pointer;
+}
+.admin-popup-condition{
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin-top: -15px;
+}
+.admin-popup-condition input{
+  margin-top: 5px;
+}
+.admin-popup p span{
+  color: orangered;
+  font-size: 500;
+  cursor: pointer;
+}
+.update {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.update h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.update div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between buttons */
+}
+
+.update button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.update button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+.update button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5);
+}

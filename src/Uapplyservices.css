@@ -1,0 +1,58 @@
+.apply {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px; /* Space around the content */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 600px; /* Limit width */
+    margin: 20px auto; /* Center the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.apply h1 {
+    font-size: 24px; /* Font size for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.apply input[type="text"] {
+    width: 100%; /* Full width for input */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for input */
+    font-size: 16px; /* Font size for input text */
+    margin-bottom: 15px; /* Space below the input */
+}
+
+.apply p {
+    color: #666; /* Lighter text for the 'No services found' message */
+}
+
+.apply ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding from the list */
+}
+
+.apply li {
+    display: flex; /* Flex layout for the list items */
+    justify-content: space-between; /* Space between name and button */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding around each item */
+    border-bottom: 1px solid #eee; /* Light border for separation */
+}
+
+.apply li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.apply button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    padding: 8px 12px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.apply button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}

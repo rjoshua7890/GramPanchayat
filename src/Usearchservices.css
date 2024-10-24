@@ -1,0 +1,36 @@
+.search {
+    background-color: #f9f9f9; /* Light background for the search section */
+    padding: 20px;            /* Space around the content */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px;            /* Space between search sections */
+}
+
+.search h1 {
+    font-size: 24px;         /* Larger font size for the heading */
+    color: #333;             /* Dark text color */
+    margin-bottom: 15px;     /* Space below the heading */
+}
+
+.search p {
+    color: #666;             /* Grey color for the no services message */
+    font-size: 16px;         /* Font size for the message */
+}
+
+.search ul {
+    list-style-type: none;   /* Remove default list styles */
+    padding: 0;              /* Remove padding */
+}
+
+.search li {
+    background-color: #fff;  /* White background for each service */
+    padding: 10px;           /* Padding inside list items */
+    margin: 5px 0;           /* Space between list items */
+    border-radius: 5px;      /* Rounded corners for list items */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+.search li:hover {
+    background-color: #eaeaea; /* Light grey on hover */
+}

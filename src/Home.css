@@ -1,0 +1,53 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.homepage nav {
+  background-color: #f8f8f8; /* Light background for the nav */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.homepage ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.homepage .nav-link {
+  text-decoration: none; /* Remove underline from links */
+  display: flex;
+  flex-direction: column; /* Align img and button vertically */
+  align-items: center; /* Center items */
+}
+
+.homepage .nav-link img {
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  margin-bottom: 5px; /* Space between img and button */
+}
+
+.homepage button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Button padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: flex; /* Ensure button size is controlled */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  font-size: 16px; /* Font size */
+}
+
+.homepage button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.homepage button:focus {
+  outline: none; /* Remove outline on focus */
+}

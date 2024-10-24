@@ -1,0 +1,54 @@
+.staffviewservices {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.staffviewservices h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.staffviewservices p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.staffviewservices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.staffviewservices li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.staffviewservices li:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.staffviewservices h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.staffviewservices li p {
+    margin: 5px 0;
+}
+
+.staffviewservices .error {
+    color: red;
+    font-weight: bold;
+}
